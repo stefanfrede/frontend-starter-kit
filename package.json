@@ -1,0 +1,45 @@
+{
+  "name": "frontend-starter-kit",
+  "version": "4.0.0",
+  "description": "Frontend Starter Kit",
+  "engines": {
+    "node": "20.x.x",
+    "npm": "10.x.x"
+  },
+  "type": "module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stefanfrede/frontend-starter-kit.git"
+  },
+  "keywords": [
+    "frontend",
+    "starter"
+  ],
+  "author": {
+    "name": "Stefan Frede",
+    "email": "github.pfze6@slmail.me"
+  },
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/stefanfrede/frontend-starter-kit/issues"
+  },
+  "homepage": "https://www.frede.dev/",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.0.3",
+    "@commitlint/config-conventional": "^19.0.3",
+    "browserslist": "^4.23.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^14.0.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "3.2.5",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}
